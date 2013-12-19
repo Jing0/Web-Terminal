@@ -278,7 +278,7 @@ Command.Date={
  */
 Command.Who={
     getFsCallback:function(input,output){
-        return output.write('<div class="highlight">Hacker GO!! - By:<a href="http://jok3r.ueuo.com" style="text-decoration:none;" target="_blank">Jok3r</a> &lt;j.kuo2012@gmail.com&gt;</div>');
+        return output.write('<div class="highlight">Web-Terminal - By:<a href="http://jok3r.ueuo.com" style="text-decoration:none;" target="_blank">Jok3r</a> &lt;j.kuo2012@gmail.com&gt;</div>');
     }
 };
 /**
