@@ -1,0 +1,38 @@
+<!--
+!!This note can not be deleted!!
+ Web Terminal
+ http://jok3r.ueuo.com/
+ Copyright 2013, Jackie Kuo
+ E-mail:j.kuo2012@gmail.com
+ Date: Thu Dec 19 13:13:13 2013
+ You can fork this project at https://github.com/Jing0/Web-Terminal
+ -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Web Terminal</title>
+        <script type="text/javascript" src="./terminal.js"></script>
+        <link rel="stylesheet"  type="text/css" href="./style.css"/>
+        <!--Get IP with an interface of Sina.com.cn-->
+        <script type="text/javascript" charset="gb2312" src="http://counter.sina.com.cn/ip/"></script>
+    </head>
+    <body id="body">
+        <div id="container">
+            <div id="header">
+                <div>-----------------------------------------------------</div>
+                <div>Welcome to <a style="font-family:munro,monospace;font-size:20px;margin-left:10px;letter-spacing:3px;">Web Terminal</a><sup>(alpha 0.1)</sup></div>
+                <div>NOTE:This is a demo.<a class="warn">Only support Chrome for the time being.</a>I am trying to improve it.</div>
+                <div id="browser" class="highlight">Browser info getting...</div>
+                <div id="date" class="highlight">Time getting...</div>
+                <div>Type "help" for help!</div>
+                <div>-----------------------------------------------------</div>
+            </div>
+            <output id="output">
+            </output>
+            <div id="command">
+                <div id="prompt">$&gt;</div>
+                <input id="cmdline" autofocus="">
+            </div>
+        </div>
+    </body>
+</html>

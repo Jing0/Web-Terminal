@@ -1,0 +1,72 @@
+@font-face{
+    font-family: munro;
+    font-style:normal;
+    src:url(http://hacker-go.u.qiniudn.com/munro.ttf);
+}
+@font-face {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Inconsolata'), url('http://hacker-go.u.qiniudn.com/Inconsolata.woff') format('woff');
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+body {
+    background-color: #000;
+    color: #63F221;
+    font-family: Inconsolata,monospace,Helvetica,monaco;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+#container {
+    padding: 3px 1.5em 1em 1em;
+}
+#output {
+    clear: both;
+    width: 100%;
+}
+#output h3 {
+    margin: 0;
+}
+#output pre {
+    margin: 0;
+}
+#header{
+    line-height: 20px;
+}
+#prompt {
+    float: left;
+    color: yellow;
+    margin-right: 7px;
+}
+#cmdline {
+    float: left;
+    margin: 0;
+    width: 96%;
+    font: inherit;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: #fff;  
+}
+#output .cmd-output .filesystem-ls span {
+    margin-right: 2%;
+}
+#output .cmd-output .filesystem-ls-l span {
+    display: block;
+}
+#output .cmd-output div .is-dir {
+    color: rgb(0, 82, 255);
+}
+.warn{
+    color:red;
+}
+.highlight{
+    color:#29F5C2;
+}
